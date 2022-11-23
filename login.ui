@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>login</class>
+ <widget class="QDialog" name="login">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1825</width>
+    <height>1049</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>940</x>
+     <y>10</y>
+     <width>91</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="logo.qrc">:/imagenes/music.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>460</y>
+     <width>91</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="logo.qrc">:/imagenes/music.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>10</y>
+     <width>71</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="usuario.qrc">:/imagenes/user2.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>30</y>
+     <width>241</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(93, 96, 255);</string>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLabel" name="USERNAME">
+      <property name="font">
+       <font>
+        <family>Arial Black</family>
+        <pointsize>7</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #ffffff;
+color: #000000;</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;  Usuario &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>30</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial Black</family>
+     <pointsize>7</pointsize>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(93, 96, 255);
+color:#ffffff;</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;  Usuario: &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>90</y>
+     <width>671</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:#091a31;</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>4</y>
+      <width>321</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Black</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#ffffff;
+background-color:rgb(93, 96, 255);</string>
+    </property>
+    <property name="text">
+     <string>Conectar con Usuarios</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>4</y>
+      <width>321</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Black</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#ff545f;
+color: #ffffff;</string>
+    </property>
+    <property name="text">
+     <string> Ver Amigos </string>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>30</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial Black</family>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:#ffffff;
+background-color:#ff545f;</string>
+   </property>
+   <property name="text">
+    <string>Log Out</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="listWidget">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>510</y>
+     <width>901</width>
+     <height>441</height>
+    </rect>
+   </property>
+   <property name="flow">
+    <enum>QListView::TopToBottom</enum>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="publicar">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>950</y>
+     <width>211</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>publicar</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="eliminar">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>950</y>
+     <width>191</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>eliminar</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="mas_likes">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>480</y>
+     <width>201</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>50 con mas likes</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="mas_reciente">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>480</y>
+     <width>201</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>50 mas recientes</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_fecha">
+   <property name="geometry">
+    <rect>
+     <x>860</x>
+     <y>480</y>
+     <width>101</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>fecha</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txt_fecha">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>480</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="listWidget_comments">
+   <property name="geometry">
+    <rect>
+     <x>1010</x>
+     <y>510</y>
+     <width>731</width>
+     <height>441</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txt_idPub">
+   <property name="geometry">
+    <rect>
+     <x>1180</x>
+     <y>480</y>
+     <width>261</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>1020</x>
+     <y>480</y>
+     <width>141</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;Ingresar Id publicacion&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>1030</x>
+     <y>420</y>
+     <width>271</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#ffffff;&quot;&gt;COMENTARIOS&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>420</y>
+     <width>271</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#ffffff;&quot;&gt;PUBLICACIONES&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="find_comments">
+   <property name="geometry">
+    <rect>
+     <x>1470</x>
+     <y>480</y>
+     <width>181</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Encontrar comentarios</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_comentar">
+   <property name="geometry">
+    <rect>
+     <x>1010</x>
+     <y>950</y>
+     <width>271</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Comentar</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_compartir">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>950</y>
+     <width>211</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>compartir</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txt_id_comp_pub">
+   <property name="geometry">
+    <rect>
+     <x>810</x>
+     <y>950</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>950</y>
+     <width>121</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; color:#ffffff;&quot;&gt;id_publicacion&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="mas_relevantes">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>480</y>
+     <width>181</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>50 mas relevantes</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txt_first_word">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>300</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_first_word">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>300</y>
+     <width>93</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>first word</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>990</x>
+     <y>180</y>
+     <width>55</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>260</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#ffffff;&quot;&gt;FILTROS&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_last_word">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>300</y>
+     <width>93</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Last_word</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txt_no_finded">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>340</y>
+     <width>371</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_no_finded">
+   <property name="geometry">
+    <rect>
+     <x>1070</x>
+     <y>340</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>No contenido en</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txt_contenido_en">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>300</y>
+     <width>371</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_contenido_en">
+   <property name="geometry">
+    <rect>
+     <x>1070</x>
+     <y>300</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>contenido en</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txt_igual_a">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>340</y>
+     <width>451</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_igual_a">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>340</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Igual a</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="logo.qrc"/>
+  <include location="usuario.qrc"/>
+ </resources>
+ <connections/>
+</ui>
